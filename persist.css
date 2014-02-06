@@ -1,0 +1,129 @@
+/* Persist.css 
+*	colors
+*   medium gray = #333
+*   light gray = #ccc
+*/
+
+
+a{	
+	color:white;
+	text-decoration:none;	
+}
+
+h1{
+	margin:0px;	
+}
+	
+.pageWrapper{
+	width:90%;
+	border:1px solid black;
+	margin:0 auto;
+}
+
+.headerLogo{
+	height:100%;
+	width:20%;
+	background-image:url('persistlogo.png');
+	background-repeat:no-repeat;
+	background-size: 100%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+.content{
+	float:right;
+	min-height:20em;
+	width:80%;	
+}
+
+.navVertical{
+	list-style-type:none;
+	margin:2em 0 0 2em;
+	padding:0;
+}
+
+.navVertical a{
+	color:#000;
+}
+
+.navHorizontal{
+    list-style-type:none;
+    margin:0;
+    padding:1em 0 0 0;
+    text-align:center;
+}
+
+.navHorizontal li{
+    display:inline;
+}
+.navHorizontal a{
+    display:inline-block;
+    padding:10px;
+}
+
+.contentWrapper{
+	overflow:hidden;
+}
+
+header{
+	height:5em;
+	background-color:#333;
+}
+	
+nav{
+	float:left;
+	width:20%;
+	background-color:#ccc;
+	margin-bottom:-1000px;
+	padding-bottom:1000px;
+}
+
+.formDemo{
+	width:90%;
+	height:5em;
+	margin:0 auto;
+	text-align:center;
+	padding-top:2em;
+}
+
+.formShow{}
+
+.formResult{
+	display:none;
+}
+	
+.fillerContent{
+	width:90%;
+	margin:0 auto;
+}
+
+footer{
+	height:5em;
+	background-color:#333;
+}
+
+.clear{
+	clear:both;
+	display:none;
+}
+
+@media only screen and (max-device-width: 480px) {
+	
+	html{
+		font-size:2em;
+	}
+	
+	.pageWrapper{
+		width:100%;
+		margin:0 auto;
+	}
+	
+	header{
+		height:2.5em;
+	}
+	
+.navVertical li{
+	margin-bottom:2em;
+}
+	}
+	
